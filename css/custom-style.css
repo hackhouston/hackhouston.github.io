@@ -2,20 +2,6 @@ body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   background-color: #ffffff;
 }
-
-#showcase {
-  background: url("../img/tiger_background.jpg") no-repeat 0 -200px;
-  text-align: center;
-}
-
-/* footer {
-  padding: 20px;
-  margin-top: 20px;
-  color: #ffffff;
-  background-color: maroon;
-  text-align: center;
-} */
-
 .navbar {
   background-color: #760620;
   margin-bottom: 0;
@@ -30,6 +16,19 @@ body {
 .navbar-inverse .navbar-brand {
   color: white;
 }
+
+#showcase {
+  background: url("../img/tiger_background.jpg") no-repeat 0 -200px;
+  text-align: center;
+}
+
+/* footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: maroon;
+  text-align: center;
+} */
 
 /* .bg {
   background: url('./img/tiger_background.jpg') no-repeat 0 -300px;
@@ -97,3 +96,4 @@ body {
   padding-bottom: 50px;
   padding-top: 50px;
 }
+

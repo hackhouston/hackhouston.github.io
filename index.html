@@ -11,6 +11,7 @@
 <meta name="keywords" content="HackHouston, Hackathon, Texas Southern University">
 <meta name="author" content="Steve Hudgson">
 <title>HackHouston</title>
+<link rel="icon" href="./img/hackhouston_logo.png">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
 <!-- <script src="./js/main.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -67,18 +68,36 @@
     height: 100vh;
     min-height: 750px;
   }
-</style>
 
+  .btn-primary {
+    background-color:transparent; 
+    border-color:#760620;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #760620;
+    border-color: #760620;
+    border-radius: 0;
+    /*set the color you want here*/
+  }
+</style>
 </head>
 
 <body>
+
+<!-- navbar -->
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand text-uppercase" href="#">HackHouston</a>
-        <a class="navbar-brand pull-right text-uppercase" href="#">FAQ</a>
-        <a class="navbar-brand pull-right text-uppercase" href="#">Schedule</a>
-        <a class="navbar-brand pull-right text-uppercase" href="#">Sponsors</a>
+        <a class="navbar-brand text-uppercase" href="#hero">HackHouston</a>
+        <a class="navbar-brand text-uppercase" href="#faq">FAQ</a>
+        <a class="navbar-brand text-uppercase" href="#schedule">Schedule</a>
+        <a class="navbar-brand text-uppercase" href="#sponsor">Sponsors</a>
       </div>
     </div>
   </nav>
@@ -90,9 +109,23 @@
         <h1 class="text-center text-uppercase">HackHouston 2018</h1>
         <p class="text-center text-uppercase">April 7th - 8th</p>
         <p class="text-center text-uppercase">TSU Recreational Building</p>
+        <!-- Sign Ups -->
+        <div class="row" style="padding-top: 30px;">
+          <div class="col-md-4">
+            <a href="https://tsucs.typeform.com/to/olX7RQ" target="_blank" class="btn btn-primary center-block" role="button">STUDENT</a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://tsucs.typeform.com/to/QmY35Q" target="_blank" class="btn btn-primary center-block" role="button">VOLUNTEER</a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://tsucs.typeform.com/to/vzM3Yw" target="_blank" class="btn btn-primary center-block" role="button">SPONSOR</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+
   <div id="faq">
     <div class="container">
       <div class="row">
@@ -192,11 +225,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6 roku">
+        <div class="col-sm-12 roku">
           <img src="img/roku_logo.svg" alt="Roku company logo" class="img-responsive center-block" width="300">
-        </div>
-        <div class="col-sm-6 twitch">
-          <img src="img/twitch_logo.svg" alt="Twitch company logo" class="img-responsive center-block" width="300">
         </div>
       </div>
       <div class="row">
@@ -210,7 +240,7 @@
           <img src="img/tsucs_name_logo.png" alt="TSU Computer Soceity logo" class="img-responsive center-block" width="300">
         </div>
         <div class="row">
-      </div>
+        </div>
         <!-- tsucs_logo has white layer on it :( -->
         <!-- <img src="img/tsucs_logo.png" alt="TSU Computer Soceity logo"> -->
       </div>
