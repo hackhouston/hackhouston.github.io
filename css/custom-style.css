@@ -80,16 +80,14 @@ body {
   padding-top: 50px;
 }
 
-#sponsor .twitch {
+#sponsor .microsoft {
   padding-bottom: 50px;
   padding-top: 50px;
-  padding-right: 70px;
-
 }
 
-#sponsor .lob {
+#sponsor .hcc {
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 #sponsor .tsu {
