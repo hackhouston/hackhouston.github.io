@@ -1,1 +1,2 @@
-# HackHouston-2018-site
+# HackHouston-Site
+Single page website for HackHouston
