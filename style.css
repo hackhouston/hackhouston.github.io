@@ -163,6 +163,9 @@ body {
     margin-top: 0px;
 }
 
+.table-dark {
+    background-color: rgb(128, 0, 128);
+}
 /*SPONSORS styling*/
 
 #sponsors {
@@ -177,9 +180,21 @@ body {
     color: rgb(128, 0, 128);
 }
 
+.col-sm-4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.col-sm-4 img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
 .col-sm-6 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
 }
 
 .col-sm-6 img {
