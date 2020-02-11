@@ -98,7 +98,7 @@ margin-top: 4cm;
     font-family: 'Varela Round', sans-serif;
 }
 /*signup buttons*/
-.jumbotron button {
+.jumbotron a{
 background-color: rgb(251, 246, 246);
 width: 8em;
 border-width: 10%;
@@ -112,7 +112,7 @@ padding: 15px 32px;
 text-align: center;
 }
 
-.jumbotron button:hover {
+.jumbotron a:hover {
 border: 1px;
   background-color: rgb(255, 98, 0);
   border-radius: 12px;
